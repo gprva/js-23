@@ -89,12 +89,6 @@ function length(stroke){
 }
 console.log(length("123456"))
 
-// 3.Напишите функцию, которая принимает строку в качестве аргумента и возвращает ее длину.
-function length(stroke){
-    return stroke.length
-}
-console.log(length("123456"))
-
 // 4.Напишите функцию, которая принимает массив в качестве аргумента и возвращает первый элемент массива.
 function firstElement(stroke2){
     return stroke2[0]
