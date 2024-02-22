@@ -94,11 +94,10 @@ function firstElement(stroke2){
     return stroke2[0]
 }console.log(firstElement("Gaparova"))
 
-// 5.Напишите функцию, которая принимает логическое значение (true или false) в качестве аргумента и возвращает противоположное значение.
-function bolion(stroke3){
-    return ! stroke3
-}
-console.log(bolion(true))
+// 4.Напишите функцию, которая принимает массив в качестве аргумента и возвращает первый элемент массива.
+function firstElement(stroke2){
+    return stroke2[0]
+}console.log(firstElement("Gaparova"))
 
 // 5.Напишите функцию, которая принимает логическое значение (true или false) в качестве аргумента и возвращает противоположное значение.
 function bolion(stroke3){
