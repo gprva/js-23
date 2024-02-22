@@ -100,11 +100,11 @@ function bolion(stroke3){
 }
 console.log(bolion(true))
 
-//7.Напишите функцию, которая принимает строку в качестве аргумента и возвращает ее в обратном порядке.
-function reversee(stroke4){
-    return stroke4.split('').reverse().join('');
+// 5.Напишите функцию, которая принимает логическое значение (true или false) в качестве аргумента и возвращает противоположное значение.
+function bolion(stroke3){
+    return ! stroke3
 }
-console.log(reversee ("gaparova"))
+console.log(bolion(true))
 
 //7.Напишите функцию, которая принимает строку в качестве аргумента и возвращает ее в обратном порядке.
 function reversee(stroke4){
