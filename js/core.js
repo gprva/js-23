@@ -106,3 +106,10 @@ function reversee(stroke4){
 }
 console.log(reversee ("gaparova"))
 
+//7.Напишите функцию, которая принимает строку в качестве аргумента и возвращает ее в обратном порядке.
+function reversee(stroke4){
+    return stroke4.split('').reverse().join('');
+}
+console.log(reversee ("gaparova"))
+
+
