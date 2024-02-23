@@ -104,25 +104,21 @@ console.log(bolion(true))
 function reversee(stroke4){
     return stroke4.split('').reverse().join('');
 }
-console.log(reversee ("gaparova"))
+console.log(reversee ("gaparovaa"))
 
+// 8.Напишите функцию, которая принимает число в качестве аргумента и возвращает true, если число является простым, и false, если нет. Простое число - это число, которое делится только на себя и на единицу.
 
-const boxes = Array.from(document.querySelectorAll(".box")); // считываем все элементы аккордеона в массив
-
-boxes.forEach((box) => {
-  box.addEventListener("click", boxHandler); // при нажатии на бокс вызываем ф-ию boxHanlder
-});
-
-function boxHandler(e) {
-  e.preventDefault(); // сбрасываем стандартное поведение
-  let currentBox = e.target.closest(".box"); // определяем текущий бокс
-  let currentContent = e.target.nextElementSibling; // находим скрытый контент
-  currentBox.classList.toggle("active"); // присваиваем ему активный класс
-  if (currentBox.classList.contains("active")) {
-    // если класс активный ..
-    currentContent.style.maxHeight = currentContent.scrollHeight + "px"; // открываем контент
-  } else {
-    // в противном случае
-    currentContent.style.maxHeight = 0; // скрываем контент
+function fun8(num){
+  if(num <= 1){
+    return false
   }
+
+  for (let i = 2; i <= Math.sqrt(num); i++){
+    if(num % i  !== 0){
+      return true
+    }
+  }
+  return false
+
 }
+console.log(fun8(9))
